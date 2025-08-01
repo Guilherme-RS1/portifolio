@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --background: #d81818;
   --foreground: #3a1bc2;
 }
@@ -17,11 +17,9 @@
     --background: #790303;
     --foreground: #6a23ec;
   }
-}
+} */
 
 body {
-  --background: var(--background);
-  color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgba(245, 245, 245, 0.8);
 }
@@ -29,7 +27,10 @@ body {
 .section {
   width: 100%;
   min-height: 100vh;
-  height: calc(100vh - 72px);
+  scroll-margin-top: 80px;
+}
+.section div h1 {
+  margin-bottom: 50px;
 }
 
 .main {
