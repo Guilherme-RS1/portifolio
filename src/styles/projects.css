@@ -1,0 +1,36 @@
+#projetos div h2 span:nth-child(1),
+#projetos div h2 span:nth-child(8) {
+  color: #6a23ec;
+}
+
+#projetos .projects__flex {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 3rem;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+div #img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#projetos .projects__title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.projects__title h3{
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #111;
+  margin-bottom: 2rem;
+}
+
+.projects__title p {
+  color: #666;
+}

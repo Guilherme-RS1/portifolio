@@ -6,21 +6,21 @@
   transform: translate(-50%, -55%);
 } */
 
-div h1 {
-  font-size: 48px;
+section div h2 {
+  font-size: 2.2rem;
   font-weight: 800;
   flex-wrap: wrap;
   cursor: default;
   text-align: center;
 }
 
-div h1 span {
+section div h2 span {
   text-transform: uppercase;
   color: #111;
   display: inline-block;
   transition: color 0.2s ease;
 }
 
-div h1 span:hover {
+section div h2 span:hover {
   color: #6a23ec;
 }

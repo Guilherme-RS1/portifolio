@@ -14,30 +14,11 @@
   text-align: center;
 }
 
-/* div h1 {
-  font-size: 48px;
-  font-weight: 800;
-  flex-wrap: wrap;
-  cursor: default;
-  text-align: center;
-}
-
-div h1 span {
-  text-transform: uppercase;
-  color: #111;
-  display: inline-block;
-  transition: color 0.2s ease;
-}
-
-div h1 span:hover {
-  color: #6a23ec;
-} */
-
-#home div h1 span:nth-child(1),
-#home div h1 span:nth-child(4),
-#home div h1 span:nth-child(6),
-#home div h1 span:nth-child(9),
-#home div h1 span:nth-child(17) {
+#home div h2 span:nth-child(1),
+#home div h2 span:nth-child(4),
+#home div h2 span:nth-child(6),
+#home div h2 span:nth-child(9),
+#home div h2 span:nth-child(17) {
   color: #6a23ec;
 }
 
