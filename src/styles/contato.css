@@ -3,6 +3,10 @@
   color: #6a23ec;
 }
 
+.contato div{
+  margin: 300px;
+}
+
 section div form {
   display: flex;
   flex-direction: column;

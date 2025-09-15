@@ -2,7 +2,6 @@ import Home from './sections/Home';
 import Header from './sections/Header';
 import Projetos from './sections/Projetos';
 import Contato from './sections/Contato';
-import Footer from './sections/Footer';
 
 import '../styles/globals.css';
 import '../styles/header.css';
@@ -17,7 +16,6 @@ export default function HomePage() {
       <Home />
       <Projetos />
       <Contato />
-      <Footer />
     </main>
   )
 }

@@ -2,7 +2,7 @@ import AnimatedTitle from "@/src/components/AnimateTitle";
 
 export default function Contato() {
   return (
-    <section id="contato" className="section">
+    <section id="contato" className="contato">
       <div>
         <AnimatedTitle text="Contato" />
         <form action="">
